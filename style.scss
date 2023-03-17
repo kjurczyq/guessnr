@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.main-board{
+   display: flex;
+   flex-direction: row;
+    height: 100vh;
+    background-color: greenyellow;
+}
+.again{
+    width: 190px;
+    height: 80px;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    border: none;
+    font-size: 2em;
+    font-family: 'Press Start 2P', cursive;
+}
+.how-play{
+    display: flex;
+    position: relative;
+  
+    justify-content: center;
+    margin-right: 80px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-bottom: 99%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2em;
+}
+h1{
+ 
+    position: absolute;
+top: 30%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+    font-size: 3em;
+    font-family: 'Press Start 2P', cursive;
+}
+.center-info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 150px;
+    background-color: aliceblue;
+    
+}
+.center-info::before{
+    position: absolute;
+    overflow: hidden;
+    width: 400vh;
+    height: 20px;
+    left: 0 auto;
+    
+    background-color: aliceblue;
+    content: '';
+
+}
+.main-nr{
+    font-size: 4em;
+    font-family: 'Press Start 2P', cursive;
+    z-index: 2;
+}
+.empty-field{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10px;
+    width: 20%;
+    left: 15%;
+    top: 70%;
+}
+#input-number{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    border: 4px solid white;
+    background-color: greenyellow;
+}
+
+// .check{
+//     position: absolute;
+//     width: 200px;
+//     height: 50px;
+//     top: 80vh;
+//     left:23vh;
+//     background-color: white;
+//     border: none;
+// }
+.check{
+    position: absolute;
+    width: 14%;
+    height: 5%;
+    top: 82%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+
+}
+.text-info{
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: 74%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+  
+  }
+.p-info{
+    font-size: 3em;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 20px;
+}
+.correct{
+    padding-bottom: 30px;
+}
+.ico{
+    height: 30px;
+}
